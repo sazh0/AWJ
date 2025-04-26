@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Regular Font */
+@font-face {
+    font-family: 'DIN Next LT Arabi';
+    src: url('/Users/macbookpro/Desktop/awjproj/src/assets/fonts/DINNextLTArabic-Regular-3.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Bold Font */
+@font-face {
+    font-family: 'DIN Next LT Arabi';
+    src: local("DINNextLTArabic-Regular-3"),
+    url('/Users/macbookpro/Desktop/awjproj/src/assets/fonts/DINNextLTArabic-Bold-4.ttf') format('truetype');
+    font-weight: bold; 
+    font-style: normal;
+}
